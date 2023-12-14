@@ -18,7 +18,8 @@ pub fn instantiate(
 	msg: InstantiateMsg,
 ) -> Result<Response, ContractError> {
 	set_contract_version(deps.storage, CONTRACT_NAME, CONTRACT_VERSION)?;
-	Ok(cw721_base::entry::instantiate(deps, env, info, msg)?)
+	let inst = crate::Contract::default();
+	Ok(inst.instantiate(deps, env, info, msg)?)
 }
 
 #[cfg_attr(not(feature = "library"), entry_point)]

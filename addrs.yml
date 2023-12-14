@@ -1,3 +1,8 @@
 terra2-testnet:
   - address: terra1rp3722twm4rxmduhw4yvmwcq5sv9x63veeeee7ycjglhy93uewasq200jk
     codeId: 12306
+  - address: terra1e468gu4fxefdtqlsx87p3sqc73jzf0rseqnhktjecqw80w5j98csr2nrcp
+    codeId: 12417
+terra2:
+  - address: terra1cfk54jzu6wsr7c7eqhvs3znkkuxc7pvr7awdvheg7szvnlmduvus95a0q0
+    codeId: 2369
